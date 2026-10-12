@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cleolm": {
+      "type": "http",
+      "url": "https://cleolm.com/mcp"
+    }
+  }
+}

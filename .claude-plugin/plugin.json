@@ -1,0 +1,20 @@
+{
+  "name": "cleolm",
+  "displayName": "CleoLM",
+  "version": "1.0.0",
+  "description": "Search and cite timestamped transcripts of YouTube videos and podcasts: 158 continuously synced channels plus anything you ingest.",
+  "author": {
+    "name": "CleoLM",
+    "email": "support@cleolm.com",
+    "url": "https://cleolm.com"
+  },
+  "homepage": "https://cleolm.com/developers",
+  "repository": "https://github.com/ibenna/cleolm-agent-kit",
+  "license": "MIT",
+  "keywords": ["youtube", "podcasts", "transcripts", "research", "mcp", "citations"],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://cleolm.com/developers",
+  "supportUrl": "https://cleolm.com/developers#support",
+  "privacyPolicyUrl": "https://cleolm.com/privacy",
+  "termsOfServiceUrl": "https://cleolm.com/terms"
+}

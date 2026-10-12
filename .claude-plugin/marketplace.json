@@ -1,0 +1,15 @@
+{
+  "name": "cleolm",
+  "description": "CleoLM plugins: timestamped YouTube and podcast transcripts for your agent.",
+  "owner": {
+    "name": "CleoLM",
+    "email": "support@cleolm.com"
+  },
+  "plugins": [
+    {
+      "name": "cleolm",
+      "source": "./",
+      "description": "CleoLM MCP connector plus research, episode-brief and channel-monitor skills."
+    }
+  ]
+}

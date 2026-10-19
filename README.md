@@ -5,6 +5,17 @@ Search 158 continuously synced channels plus anything you ingest; every answer
 links to the exact second it was said. Your model does the reasoning; CleoLM
 supplies the source.
 
+## Try it first (no account)
+
+Point any MCP client at `https://cleolm.com/mcp/open`. No sign-in: search all 158 channels
+and read passages, cited to the second (limited to 30 calls a day). For example, in Claude Code:
+
+```
+claude mcp add --transport http cleolm-open https://cleolm.com/mcp/open
+```
+
+Connect the full server below for transcripts, ingest and your free monthly credits.
+
 ## Install
 
 **Claude Code**
@@ -30,8 +41,9 @@ Then run `/mcp` and sign in to CleoLM.
 
 ## Pricing
 
-Agent access is included with CleoLM Pro ($25/mo, 1,000 credits) and Max ($99/mo,
-5,000 credits). Search is 1 credit; reading passages is free. Prepaid credit packs,
-never auto-recharge. Details: [cleolm.com/agents](https://cleolm.com/agents).
+Every account gets 50 free credits a month (sign in with Google). Pro ($25/mo) adds 1,000
+credits and Max ($99/mo) 5,000, plus podcasts, videos without captions and premium
+transcription. Search is 1 credit; reading passages is free. Prepaid credit packs, never
+auto-recharge. Details: [cleolm.com/agents](https://cleolm.com/agents).
 
 Support: support@cleolm.com

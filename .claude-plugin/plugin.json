@@ -1,7 +1,7 @@
 {
   "name": "cleolm",
   "displayName": "CleoLM",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Search and cite timestamped transcripts of YouTube videos and podcasts: 158 continuously synced channels plus anything you ingest.",
   "author": {
     "name": "CleoLM",

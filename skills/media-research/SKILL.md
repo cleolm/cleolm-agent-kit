@@ -42,7 +42,7 @@ starts playback at that moment. Those links are the product: never drop them.
 
 5. **Not in the index?** Call `discover` (`type` `"youtube"`, `"podcast"` or
    `"podcast_episode"`) to find the media, then `ingest` the best one or two URLs. Tell
-   the user before ingesting anything long: transcription costs credits (captions 4,
+   the user before ingesting anything long: transcription costs credits (captions 0.5,
    ASR 20/hr, podcasts 10/hr; already-transcribed media is free). If `ingest` returns
    `status` `"queued"` or `"running"`, poll `get_job` with the `job_id` every 15-30 s,
    then `search` with `item_ids: [item_id]`.

@@ -15,7 +15,7 @@ Never summarise from the title, description or your own memory of the episode.
 1. **Ingest.** Call `ingest` with `url` set to the link (a `yt:` id also works) and
    `wait_seconds: 30`.
    - Already-transcribed media returns `status: "completed"` with `credits_charged: 0`.
-   - New media costs credits by route: captions 4, ASR 20/hr, AI video 36/hr,
+   - New media costs credits by route: captions 0.5, ASR 20/hr, AI video 36/hr,
      podcasts 10/hr. For anything over an hour, tell the user the likely cost before
      you start, unless they already asked you to go ahead.
    - Use `quality: "premium"` only when the user asks for higher accuracy (useful for

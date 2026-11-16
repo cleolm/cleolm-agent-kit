@@ -21,7 +21,7 @@ Connect the full server below for transcripts, ingest and your free monthly cred
 **Claude Code**
 
 ```
-/plugin marketplace add ibenna/cleolm-agent-kit
+/plugin marketplace add cleolm/cleolm-agent-kit
 /plugin install cleolm@cleolm
 ```
 

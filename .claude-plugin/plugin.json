@@ -9,7 +9,7 @@
     "url": "https://cleolm.com"
   },
   "homepage": "https://cleolm.com/developers",
-  "repository": "https://github.com/ibenna/cleolm-agent-kit",
+  "repository": "https://github.com/cleolm/cleolm-agent-kit",
   "license": "MIT",
   "keywords": ["youtube", "podcasts", "transcripts", "research", "mcp", "citations"],
   "icon": "./assets/icon.png",

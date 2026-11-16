@@ -19,7 +19,9 @@ Never summarise from the title, description or your own memory of the episode.
      podcasts 10/hr. For anything over an hour, tell the user the likely cost before
      you start, unless they already asked you to go ahead.
    - Use `quality: "premium"` only when the user asks for higher accuracy (useful for
-     multi-speaker interviews). It needs a Pro or Max plan.
+     multi-speaker interviews). Premium transcription is part of Pro and Max. Free
+     accounts (50 credits a month) can ingest YouTube videos that have captions;
+     Pro and Max add podcasts, videos without captions and premium transcription.
 
 2. **Poll if needed.** If `status` is `"queued"` or `"running"`, call `get_job` with the
    returned `job_id` every 15-30 seconds. Tell the user it is transcribing; a one-hour
